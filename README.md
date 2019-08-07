@@ -1,4 +1,4 @@
-# Desafios resolvidos do site  Dojo Puzzles
+# Desafios resolvidos do site Dojo Puzzles
 
 ## Estátisticas Simples - [Resolução](https://github.com/grbalmeida/dojo-puzzles/blob/master/simple-statistics/simple_statistics.py)
 
@@ -34,3 +34,27 @@ Exemplos:
 * Valor do Saque: R$ 80,00 – Resultado Esperado: Entregar 1 nota de R$50,00 1 nota de R$ 20,00 e 1 nota de R$ 10,00.
 
 [Link do Desafio](http://dojopuzzles.com/problemas/exibe/caixa-eletronico/)
+
+## FizzBuzz - [Resolução](https://github.com/grbalmeida/dojo-puzzles/blob/master/fizz-buzz/fizz_buzz.py)
+
+Neste problema, você deverá exibir uma lista de 1 a 100, um em cada linha, com as seguintes exceções:
+
+* Números divisíveis por 3 deve aparecer como 'Fizz' ao invés do número;
+* Números divisíveis por 5 devem aparecer como 'Buzz' ao invés do número;
+* Números divisíveis por 3 e 5 devem aparecer como 'FizzBuzz' ao invés do número'.
+
+[Link do Desafio](http://dojopuzzles.com/problemas/exibe/fizzbuzz/)
+
+## Jokenpo - [Resolução](https://github.com/grbalmeida/dojo-puzzles/blob/master/jokenpo/jokenpo.py)
+
+Jokenpo é uma brincadeira japonesa, onde dois jogadores escolhem um dentre três possíveis itens: Pedra, Papel ou Tesoura.
+
+O objetivo é fazer um juiz de Jokenpo que dada a jogada dos dois jogadores informa o resultado da partida.
+
+As regras são as seguintes:
+
+* Pedra empata com Pedra e ganha de Tesoura
+* Tesoura empata com Tesoura e ganha de Papel
+* Papel empata com Papel e ganha de Pedra
+
+[Link do Desafio](http://dojopuzzles.com/problemas/exibe/jokenpo/)
