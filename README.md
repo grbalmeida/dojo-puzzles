@@ -70,3 +70,31 @@ Cada registro no arquivo de log possui o seguinte formato:
 O gerente do banco precisa saber quantas pessoas entraram no banco no horário de expediente, para isso ele solicitou que você faça um programa que verifique se o registro de entrada é válido e se a hora se encontra dentro do intervalo de funcionamento do banco, das 10:00:00 até as 16:00:00.
 
 [Link do Desafio](http://dojopuzzles.com/problemas/exibe/entradas-no-banco/)
+
+## Ano Bissexto - [Resolução](https://github.com/grbalmeida/dojo-puzzles/blob/master/leap-year/leap_year.py)
+
+A cada 4 anos, a diferença de horas entre o ano solar e o do calendário convencional completa cerca de 24 horas (mais exatamente: 23 horas, 15 minutos e 864 milésimos de segundo). Para compensar essa diferença e evitar um descompasso em relação às estações do ano, insere-se um dia extra no calendário e o mês de fevereiro fica com 29 dias. Essa correção é especialmente importante para atividades atreladas às estações, como a agricultura e até mesmo as festas religiosas.
+
+Um determinado ano é bissexto se:
+
+O ano for divisível por 4, mas não divisível por 100, exceto se ele for também divisível por 400.
+Exemplos:
+
+São bissextos por exemplo:
+
+* 1600
+* 1732
+* 1888
+* 1944
+* 2008
+
+Não são bissextos por exemplo:
+
+* 1742
+* 1889
+* 1951
+* 2011
+
+Escreva uma função que determina se um determinado ano informado é bissexto ou não.
+
+[Link do Desafio](http://dojopuzzles.com/problemas/exibe/ano-bissexto/)
