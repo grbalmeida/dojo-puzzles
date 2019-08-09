@@ -98,3 +98,15 @@ Não são bissextos por exemplo:
 Escreva uma função que determina se um determinado ano informado é bissexto ou não.
 
 [Link do Desafio](http://dojopuzzles.com/problemas/exibe/ano-bissexto/)
+
+## Intervalos - [Resolução](https://github.com/grbalmeida/dojo-puzzles/blob/master/intervals/intervals.py)
+
+Dado uma lista de números inteiros, agrupe a lista em um conjunto de intervalos
+
+Exemplo:
+
+Entrada: 100, 101, 102, 103, 104, 105, 110, 111, 113, 114, 115, 150
+
+Saída: [100-105], [110-111], [113-115], [150]
+
+[Link do Desafio](http://dojopuzzles.com/problemas/exibe/intervalos/)
