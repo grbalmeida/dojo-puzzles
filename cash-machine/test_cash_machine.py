@@ -23,32 +23,25 @@ def test_should_return_a_note_of_10():
     assert len(cash) == 1 and cash.count(10) == 1
 
 def test_should_return_a_note_of_20():
-    cash = cash_machine(20)
-    assert len(cash) == 1 and cash.count(20) == 1
+    assert cash_machine(20) == [20]
 
 def test_should_return_a_note_of_20_and_a_note_of_10():
-    cash = cash_machine(30)
-    assert len(cash) == 2 and cash.count(20) == 1 and cash.count(10) == 1
+    assert cash_machine(30) == [20, 10]
 
 def test_should_return_a_note_of_50_and_a_note_of_10():
-    cash = cash_machine(60)
-    assert len(cash) == 2 and cash.count(50) == 1 and cash.count(10) == 1
+    assert cash_machine(60) == [50, 10]
 
 def test_should_return_a_note_of_50_and_a_note_of_20_and_a_note_of_10():
-    cash = cash_machine(80)
-    assert len(cash) == 3 and cash.count(50) == 1 and cash.count(20) == 1 and cash.count(10) == 1
+    assert cash_machine(80) == [50, 20, 10]
 
 def test_should_return_a_note_of_100_and_a_note_of_20():
-    cash = cash_machine(120)
-    assert len(cash) == 2 and cash.count(100) == 1 and cash.count(20) == 1
+    assert cash_machine(120) == [100, 20]
 
 def test_should_return_3_notes():
-    cash = cash_machine(170)
-    assert len(cash) == 3 and cash.count(100) == 1 and cash.count(50) == 1 and cash.count(20) == 1
+    assert cash_machine(170) == [100, 50, 20]
 
 def test_should_return_2_notes_of_100():
-    cash = cash_machine(200)
-    assert len(cash) == 2 and cash.count(100) == 2
+    assert cash_machine(200) == [100, 100]
 
 def test_should_return_10_notes_of_100():
     cash = cash_machine(1000)
